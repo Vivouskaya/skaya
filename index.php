@@ -111,7 +111,7 @@
             <input type="button" class="btn btn-warning" id="calendarToggle" value="Calendrier" />
           </div>
           <div class="col-xs-2">
-            <a href="http://localhost/wordpress/?page_id=68">
+            <a href="<?php get_permalink(’2’); ?>">
               <input type="button" class="btn btn-warning" id="guestbookToggle" value="Livre d'Or" />
             </a>
           </div>
