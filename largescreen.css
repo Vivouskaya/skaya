@@ -1,0 +1,369 @@
+/*
+Theme Name: Skaya
+Theme URI: http://www.vivouskaya.com/
+Description: The first theme created by Vivien Debeaupte.
+Version: 0.1
+Author: Vivien Debeaupte
+ 
+Creation Theme by Vivien Debeaupte || http://www.vivouskaya.com
+ 
+*/
+
+
+.post {
+	width: 90%;
+	
+	background-image: url('wp-content/themes/skaya/images/gg.jpg');
+	margin-left: 5%;
+	text-align: left;
+	padding: 1%;
+	margin-bottom: 1%;
+}
+
+
+@font-face {
+	font-family : "mesures";
+    src : url('fonts/mesures.ttf') format('truetype');
+}
+
+@font-face {
+	font-family : "myFont";
+    src : url('fonts/nova.otf') format('truetype');
+}
+
+#nom {
+	font-family : "myFont", Helvetica, Arial, sans-serif;
+	text-shadow: 5px 0 white, 0 5px white, 5px 0 white;
+	font-size: 180px;
+	text-align: center;
+	font-border: solid;
+}
+
+#header i {
+	font-size: 25px;
+}
+
+body {
+	background-image: url('images/pistons.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: auto;
+}
+
+.col-md-7 {
+	background-color: white;
+	opacity: 0.9;
+}
+
+#footer {
+	background-color: rgba(19, 19, 19, 1);
+	color: white;
+	text-align: center;
+	
+}
+
+.sidebar {
+	background-color: rgba(217, 142, 31, 0.9);
+	margin-top: 10%;
+}
+
+.icon {
+	margin-top: 30%;
+	margin-right: 20%;
+	margin-left: 20%;
+	height: 200px;
+	width: 200px;
+}
+
+ .profil {
+	border-radius:10px;
+	height: 70%;
+	width: 70%;
+	margin-bottom: 10%;
+	margin-left: 20%;
+}
+
+#article {
+	margin-bottom: 20%;
+	padding-bottom: 10%;
+	padding-top: 10%;
+	background-color: rgba(216, 219, 219, 0.9);
+	width: 80%;
+	margin: 0 auto;
+}
+
+#icons {
+	opacity: 0.9;
+
+}
+
+#header {
+	background-color: rgba(209, 201, 121, 0.5);
+	padding-top: 15%;
+	padding-bottom: 10%;
+	margin-top: -5%;
+	width: 100%;
+}
+
+#description {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+#calendar {
+	margin-left: 10%;
+	position: absolute;
+	z-index: 2;
+	margin-top: -9%;
+}
+
+#calendarToggle {
+	position: absolute;
+	margin-top: -55%;
+	margin-left: 35%;
+	font-size: 20px;
+}
+
+#presentationToggle {
+	position: absolute;
+	margin-top: -55%;
+	margin-left: 20%;
+	width: 200px;
+	font-size: 20px;
+
+}
+
+#presentation {
+	padding-top: 5%;
+	padding-right: 5%;
+	padding-left: 5%;
+	text-align: center;
+	background-color: rgba(19, 19, 19, 0.95);
+	position: absolute;
+	z-index: 2;
+	width: 1000px;
+	margin-top: -20%;
+	margin-left: 80%;
+	font-size: 18px;
+	color: white;
+}
+
+#presentation img {
+	width: 60%;
+	height: 60%;
+	margin-bottom: 5%;
+}
+
+#formuleToggle {
+	position: absolute;
+	margin-top: -55%;
+	margin-left: 20%;
+	width: 200px;
+	font-size: 20px;
+}
+
+#formule {
+	background-color: rgba(19, 19, 19, 0.95);
+	position: absolute;
+	z-index: 2;
+	width: 900px;
+	margin-left: -10%;
+	margin-top: -20%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 18px;
+}
+
+#ecouteToggle {
+	position: absolute;
+	margin-top: -55%;
+	margin-left: 30%;
+	font-size: 20px;
+}
+
+#ecoute {
+	background-color: rgba(19, 19, 19, 0.95);
+	position: absolute;
+	z-index: 2;
+	width: 400px;
+	margin-top: -20%;
+
+}
+
+#contactToggle {
+	position: absolute;
+	margin-top: -55%;
+	margin-left: 35%;
+	font-size: 20px;
+}
+
+#contact {
+	background-color: white;
+	position: absolute;
+	z-index: 2;
+	
+	margin-top: -35%;
+	margin-left: -250%;
+	padding-left: 4%;
+	
+	font-size: 16px;
+}
+
+#message {
+	height: 200px;
+	width: 700px;
+	margin-left: 4%;
+}
+
+
+#str {
+	color: blue;
+}
+
+.pres {
+	height: 430px;
+}
+
+#thierry, #norbert, #coralie, #gilles, #ludo {
+	background-color: black;
+	color: white;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	margin-top: -270%;
+	border-radius: 20px;
+	font-size: 18px;
+}
+
+#norbert {
+	width: 400%;
+	margin-left: 95%;
+}
+
+#norbert img {
+	width: 70%;
+}
+
+#gilles {
+	width: 300%;
+	margin-left: 90%;
+}
+
+#ludo {
+	width: 300%;
+	margin-left: -110%;
+}
+
+#thierry {
+	width: 300%;
+	margin-left: -160%;
+}
+
+#thierry img {
+	width: 80%;
+}
+
+#coralie {
+	width: 300%;
+	margin-left: -260%;
+}
+
+#coralie img {
+	width: 80%;
+}
+
+#cor {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+
+#trompette {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+
+#tuba {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+
+#trombonne {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+
+#cor:hover, #cor:focus, #cor:active {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+	transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+#trompette:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+	transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+#tuba:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+	transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+#trombonne:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+	transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.article {
+	max-width: 95%;
+	text-align: left;
+	margin-left: 2.5%;
+	background-color: white;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-top: 1%;
+}
+
