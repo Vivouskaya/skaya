@@ -1,6 +1,6 @@
  <?php get_header(); ?>
     
-  <a href="http://localhost/wordpress/">
+  <a href="http://couleurcuivre.innoveduc.fr">
     <input type="button" class="btn btn-warning" id="acceuilToggle" value="Acceuil" />
   </a>
 
