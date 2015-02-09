@@ -111,7 +111,7 @@
             <input type="button" class="btn btn-warning" id="calendarToggle" value="Calendrier" />
           </div>
           <div class="col-xs-2">
-            <a href="<?php get_permalink(’2’); ?>">
+            <a href="/?page_id=2">
               <input type="button" class="btn btn-warning" id="guestbookToggle" value="Livre d'Or" />
             </a>
           </div>
